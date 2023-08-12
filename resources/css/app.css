@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media only screen and (max-width: 1600px) {
+    #szolgaltatas {
+        height: 275px !important;
+    }
+
+    .szgg {
+        margin-top: 60px !important;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #fixedImg,
+    #absoluteImg {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #fixedImg,
+    #absoluteImg {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .maint {
+        font-size: 25px;
+    }
+    .maink {
+        margin-top: 50px;
+    }
+}
+@media screen and (min-width: 993px) {
+    .maint {
+        font-size: 80px;
+    }
+}
