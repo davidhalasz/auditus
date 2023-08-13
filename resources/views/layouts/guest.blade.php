@@ -15,6 +15,8 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         @stack('head-script')
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" deffer></script>
     </head>
     <a href="javascript:" id="return-to-top" class="left-0"><img src="img/iconup.png" alt=""></a>
     <body style="min-height: 100%; margin: 0; " id="top">
@@ -23,5 +25,8 @@
             @include('components.layout.footer')
             @stack('custom-scripts')
         </div>
+        <script>
+            AOS.init();
+          </script>
     </body>
 </html>

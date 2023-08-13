@@ -1,26 +1,4 @@
 <x-guest-layout>
-    @push('head-script')
-        <script>
-            (function(h, o, t, j, a, r) {
-                h.hj =
-                    h.hj ||
-                    function() {
-                        (h.hj.q = h.hj.q || []).push(arguments);
-                    };
-                h._hjSettings = {
-                    hjid: 1519448,
-                    hjsv: 6
-                };
-                a = o.getElementsByTagName("head")[0];
-                r = o.createElement("script");
-                r.async = 1;
-                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-        </script>
-    @endpush
-
-
     <div class="sticky is-blue py-4 px-2" style="position: fixed; top: 0; width: 100%; z-index: 100">
         <div class="container mx-auto">
             <nav class="flex items-center justify-between flex-wrap">
